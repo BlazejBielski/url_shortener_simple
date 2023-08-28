@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "url shortener simple"
+version = "0.1.0"
+description = ""
+authors = ["Blazej Bielski <bbielski@lyck.pl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "4.2.4"
+djangorestframework = "3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
